@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .home-container {
+    padding: 20px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .date {
+    font-size: 16px;
+    color: #aaa;
+  }
+  
+  h1 {
+    font-size: 56px;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 70px;
+  }
+  
+  .try-button,
+  .buy-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .try-button {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .buy-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .description {
+   
+    text-align: left;
+    margin: 20px 0;
+    font-size: 19px;
+    line-height: 1.6;
+    padding: 0 300px; /* Add padding to the left and right */
+
+  }
+  
+  .description strong {
+    font-weight: bold;
+  }
+  .description p {
+    margin-bottom: 30px; /* Spacing between paragraphs */
+  }

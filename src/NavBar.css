@@ -1,0 +1,113 @@
+.navbar {
+  position: fixed;
+  background-color: black;
+  top:0;
+  width: 100%;
+  display: flex;
+ padding: 20px;
+
+ justify-content: center;
+ align-items: center;
+
+  }
+
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 90px;
+    top: 18px;;
+}
+.nav-options {
+    display: flex;
+    gap: 20px; /* Space between navigation options */
+    justify-content: center;
+  }
+  
+  .nav-options a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-options a:hover {
+    color: lightblue;
+  }
+
+  /* Mobile menu drawer */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    
+    background-color: white;
+  }
+  
+  .nav-options.active {
+    display: block; /* Show the menu when active */
+  }
+  
+/* Mobile menu drawer */
+/* .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  } */
+  
+  /* Mobile Drawer */
+  .mobile-drawer {
+    display: none; /* Hide by default */
+    position: fixed;
+    top: 40px;  /* Adjust this based on navbar height */
+    right: 0;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;  /* Width of the mobile drawer */
+  }
+  
+  .mobile-drawer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .mobile-drawer a:hover {
+    color: lightblue;
+  }
+  
+  /* Mobile screen styles */
+  @media (max-width: 768px) {
+    .nav-options {
+      display: none; /* Hide navbar items on mobile */
+    }
+  
+    .menu-toggle {
+      display: flex; /* Show hamburger icon on mobile */
+    }
+  
+    /* Show the mobile drawer when menu is open */
+    .mobile-drawer.active {
+      display: flex;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+import React,{useState} from 'react'
+import './Home.css';
+
+function Home() {
+  return (
+    <div>
+       <div className="content">
+        <p className="date">January 10, 2025</p>
+        <h1>Introducing Legaloop </h1>
+        <div className="buttons">
+          <button className="try-button">Try Legaloop →</button>
+          <button className="buy-button">Buy Premium ✔</button>
+        </div>
+        <div className="description">
+        <p>
+          We’ve developed Legaloop, a legal bot designed to assist users in a conversational way. 
+          The dialogue format allows Legaloop to provide legal insights, answer follow-up questions, 
+          clarify complex topics, and reject inappropriate or out-of-scope requests.
+        </p>
+        <p>
+          Legaloop is built to empower individuals with quick and reliable legal advice, 
+          making legal information more accessible and understandable.
+        </p>
+        <p>
+          We are excited to introduce Legaloop and invite users to share feedback about its 
+          performance, strengths, and areas for improvement. During this research preview, 
+          Legaloop is available for free!
+        </p>
+      </div>
+      </div>
+    </div>
+  )
+}
+
+export default Home;
