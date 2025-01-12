@@ -1,14 +1,22 @@
 import React from "react";
-import NavBar from "./navBar";
-import Home from "./Home";
 
-function App()
-{
+import { Route,Routes } from "react-router-dom";
+
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+
+
+function App(){
   return(
-    <div className="App">
-    <NavBar/>
-    <Home/> 
-    </div>
-  )
-}
+    <>
+<Routes>
+<Route path="/"element={<Home/>}/>
+<Route path="/About"element={<About/>}/>
+</Routes>
+</>
+  )}
+
+
+
 export default App;

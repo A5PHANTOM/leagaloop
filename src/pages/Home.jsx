@@ -1,12 +1,16 @@
 import React,{useState} from 'react'
 import './Home.css';
+import NavBar from './NavBar';
 
 function Home() {
   return (
     <div>
+      <div>
+         <NavBar/>
+         </div>
        <div className="content">
         <p className="date">January 10, 2025</p>
-        <h1>Introducing Legaloop </h1>
+        <h1>Introducing Legaloop </h1> 
         <div className="buttons">
           <button className="try-button">Try Legaloop →</button>
           <button className="buy-button">Buy Premium ✔</button>

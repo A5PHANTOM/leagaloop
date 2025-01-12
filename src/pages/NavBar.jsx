@@ -12,7 +12,7 @@ function NavBar() {
     <div className='navbar'>
       <img className='logo' src="/src/assets/Legaloop.webp" alt="Legaloop Logo" />
       <div className='nav-options'>
-        <a href="#about">About</a>
+        <a href="/About">About</a>
         <a href="#research">Research</a>
         <a href="#booking">Booking</a>
         <a href="#company">Company</a>
@@ -25,7 +25,7 @@ function NavBar() {
       </div>
     
       <div className={`mobile-drawer ${isMenuOpen ? 'active' : ''}`}>
-        <a href="#about" onClick={toggleMenu}>About</a>
+        <a href="/About" onClick={toggleMenu}>About</a>
         <a href="#research" onClick={toggleMenu}>Research</a>
         <a href="#booking" onClick={toggleMenu}>Booking</a>
         <a href="#company" onClick={toggleMenu}>Company</a>

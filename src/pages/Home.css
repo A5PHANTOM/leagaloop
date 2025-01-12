@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #fff;
+   
+    
   }
   
   .home-container {
@@ -58,7 +60,8 @@ body {
     margin: 20px 0;
     font-size: 19px;
     line-height: 1.6;
-    padding: 0 300px; /* Add padding to the left and right */
+   
+    padding: 0 50px; 
 
   }
   
@@ -66,5 +69,5 @@ body {
     font-weight: bold;
   }
   .description p {
-    margin-bottom: 30px; /* Spacing between paragraphs */
+    margin-bottom: 40px; /* Spacing between paragraphs */
   }
