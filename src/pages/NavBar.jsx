@@ -10,10 +10,12 @@ function NavBar() {
 
   return (
     <div className='navbar'>
+      <a href='/'>
       <img className='logo' src="/src/assets/Legaloop.webp" alt="Legaloop Logo" />
+      </a>
       <div className='nav-options'>
         <a href="/About">About</a>
-        <a href="#research">Research</a>
+        <a href="/Terms">Research</a>
         <a href="#booking">Booking</a>
         <a href="#company">Company</a>
       </div>

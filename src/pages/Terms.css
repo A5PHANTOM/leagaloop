@@ -1,0 +1,76 @@
+/* Center the entire container on the screen */
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-container {
+  margin-top: 1400px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* max-width: 900px; */
+  color: white;
+  text-align: left;
+  background-color: black; /* Optional, for better visibility */
+  border-radius: 8px; /* Optional, rounded corners */
+}
+
+.terms-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.terms-section {
+  margin-bottom: 30px;
+}
+
+.terms-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.terms-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.terms-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Centering specific sections */
+.terms-section p, .terms-section ul {
+  text-align: left;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 10px;
+    margin-top: 2200px;
+  }
+
+  .terms-title {
+    font-size: 2rem;
+  }
+
+  .terms-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .terms-section ul {
+    padding-left: 10px;
+  }
+
+  .terms-section p {
+    font-size: 1rem;
+  }
+}

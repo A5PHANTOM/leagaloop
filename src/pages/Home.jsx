@@ -17,16 +17,16 @@ function Home() {
         </div>
         <div className="description">
         <p>
-          We’ve developed Legaloop, a legal bot designed to assist users in a conversational way. 
+          We’ve developed <strong>Legaloop</strong> , a legal bot designed to assist users in a conversational way. 
           The dialogue format allows Legaloop to provide legal insights, answer follow-up questions, 
           clarify complex topics, and reject inappropriate or out-of-scope requests.
         </p>
         <p>
-          Legaloop is built to empower individuals with quick and reliable legal advice, 
+          <strong>Legaloop</strong> is built to empower individuals with quick and reliable legal advice, 
           making legal information more accessible and understandable.
         </p>
         <p>
-          We are excited to introduce Legaloop and invite users to share feedback about its 
+          We are excited to introduce <strong>Legaloop</strong> and invite users to share feedback about its 
           performance, strengths, and areas for improvement. During this research preview, 
           Legaloop is available for free!
         </p>
