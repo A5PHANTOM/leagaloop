@@ -1,0 +1,385 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50011
+ * Running on http://192.168.1.2:50011
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-645-747
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-645-747
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-645-747
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5004
+ * Running on http://192.168.1.2:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-645-747
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 11:03:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 11:03:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 11:05:03] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-645-747
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:04:34] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:04:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:20:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:22:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:22:39] "GET / HTTP/1.1" 200 -
+INFO:root:Received query: legal procedures for cafe in India
+ERROR:root:Error generating content: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:23:41] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:26:15] "GET / HTTP/1.1" 200 -
+INFO:root:Received query: legal procedures for cafe in India
+INFO:root:Generated response: Setting up a cafe in India involves navigating a complex web of legal procedures.  The exact requirements can vary slightly by state and location, but these are the key steps and considerations:
+
+**I. Pre-Opening Procedures:**
+
+1. **Business Structure:** Decide on your business structure (sole proprietorship, partnership, LLP, or private limited company).  Each has different registration requirements and liability implications.  Consult with a legal professional or chartered accountant to determine the best fit.
+
+2. **Registration:**
+    * **Shop and Establishment Act:** Register your cafe under the relevant state's Shop and Establishment Act.  This involves obtaining a trade license or business license.  Requirements vary by state.
+    * **Goods and Services Tax (GST) Registration:** If your turnover exceeds the threshold limit, you must register for GST.  This allows you to collect and remit GST on sales.
+    * **Professional Tax:**  Register for professional tax as required by your state.
+    * **MSME Registration (Optional but recommended):**  Registering your cafe as a Micro, Small, and Medium Enterprise (MSME) provides access to various government benefits and schemes.
+    * **Company Registration (If applicable):** If you choose a company structure (LLP or Pvt. Ltd.), you'll need to register your company with the Ministry of Corporate Affairs (MCA).
+
+3. **Licenses and Permits:**
+    * **Food License:**  Obtain a food license from the Food Safety and Standards Authority of India (FSSAI).  This is crucial for food preparation and service.
+    * **Fire Safety License:**  Get a fire safety license or NOC from the local fire department, demonstrating compliance with fire safety regulations.
+    * **Health Trade License:**  Obtain a health trade license from the local municipal corporation or panchayat.
+    * **Pollution Control Board (PCB) Consent (If applicable):** Depending on the scale of your operations and potential environmental impact, you might need consent from the State Pollution Control Board.
+    * **Music License (If applicable):** If you intend to play music, you'll need a license from the relevant copyright societies like Phonographic Performance Ltd (PPL) or Indian Performing Right Society (IPRS).
+    * **Liquor License (If applicable):** If you plan to serve alcohol, obtaining a liquor license is a lengthy and complex process with stringent regulations varying greatly by state.
+    * **Other Licenses:** Depending on your location and specific offerings (e.g., bakery items, outdoor seating), you might need additional licenses.
+
+4. **Property-Related Documents:**
+    * **Lease Agreement/Ownership Documents:** Ensure you have the proper lease agreement or ownership documents for the premises.
+    * **Building Approvals:** Verify that the building has the necessary approvals and permits for commercial use.
+
+5. **Staff Related Compliances:**
+    * **Employment Laws:**  Comply with all relevant employment laws, including minimum wage regulations, PF, ESI, etc.
+
+
+**II. Ongoing Compliance:**
+
+* **Regular GST filing:** Timely file your GST returns.
+* **Renewal of licenses and permits:** Renew your licenses and permits as they expire.
+* **Compliance with Food Safety and Hygiene Regulations:** Maintain high standards of hygiene and food safety.
+* **Labor laws compliance:** Adhere to labor laws and regulations related to employee wages, benefits, and working conditions.
+* **Tax compliance:** Comply with all applicable tax laws and regulations.
+
+
+**III. Important Notes:**
+
+* **Professional Advice:** Seek professional guidance from lawyers, chartered accountants, and consultants throughout the process.  The complexities of Indian regulations make professional assistance invaluable.
+* **State-Specific Regulations:**  Regulations vary significantly across states.  Ensure you understand the specific requirements for your cafe's location.
+* **Timelines:** The entire process can take several months, even longer for licenses like liquor licenses. Plan accordingly.
+
+
+This information is for general guidance only and should not be considered legal advice.  You must consult with relevant professionals to ensure complete compliance with all applicable laws and regulations in your specific jurisdiction.
+
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:26:27] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:27:37] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:29:23] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:root:Received query: legal procedures for cafe in India
+DEBUG:google.api_core.retry:Retrying due to 503 The model is overloaded. Please try again later., sleeping 0.7s ...
+INFO:root:Generated response: Setting up a cafe in India involves navigating several legal procedures.  The specifics can vary slightly by state, but the general process includes these key steps:
+
+**1. Choosing a Business Structure:**
+
+* **Sole Proprietorship:** Simplest form, easy to set up, but owner is personally liable for business debts.
+* **Partnership:** Two or more individuals share ownership and liability. Requires a Partnership Deed.
+* **Limited Liability Partnership (LLP):** Combines benefits of partnership and company, offering limited liability to partners.
+* **Private Limited Company:** More complex, offers limited liability and better access to funding but involves more paperwork and compliance.
+
+The choice depends on your risk tolerance, investment, and long-term goals.  For a small cafe, a sole proprietorship or LLP might be suitable, while a larger venture may benefit from a Pvt Ltd structure.
+
+**2. Registration & Licenses:**
+
+* **Shop and Establishment Act Registration:** Mandatory for most businesses, requires registration with the relevant state authority.  This provides a business license and covers basic operational aspects.
+* **Goods and Services Tax (GST) Registration:**  If turnover exceeds the threshold (currently ₹20 lakhs for most states), GST registration is mandatory. This allows you to collect and remit GST.
+* **Food License:**  Crucial for serving food.  This involves registration with the Food Safety and Standards Authority of India (FSSAI).  This usually includes inspections and adherence to hygiene and food safety standards.  This license may be different for different kinds of cafes (e.g., one serving only packaged foods might need a simpler permit).
+* **Trade License:**  Issued by the local municipality.  This license pertains to the specific location of the cafe and covers local taxes and regulations.
+* **Fire Safety License:**  Required for safety purposes, especially considering the use of gas stoves and kitchen appliances.  Compliance is checked through inspections.
+* **Music License (if applicable):** If you intend to play music, you'll need a license from the Indian Performing Right Society (IPRS) or Phonographic Performance Ltd (PPL).
+* **Alcohol License (if applicable):**  If you plan to serve alcohol, a separate license from the Excise Department is needed, and this process can be complex and state-specific.
+
+**3. Other Legal Requirements:**
+
+* **Rent Agreement:**  If you're renting the space, a formal rent agreement is necessary.
+* **Employment Contracts:**  If you hire employees, you'll need to comply with labor laws and have employment contracts in place.
+* **Compliance with labor laws:** This includes aspects such as minimum wages, working hours, social security benefits, and other employee-related regulations.
+* **Property Tax:**  Pay property tax to the local municipal authority.
+
+
+**4. Obtaining Necessary Permissions:**
+
+* **Building Plans & Approvals:** If you are making structural changes to the premises, approval from the local authorities is crucial.
+* **Waste Management Compliance:** Ensure you have a proper waste disposal system in compliance with local regulations.
+
+**5. Ongoing Compliance:**
+
+* Maintain accurate financial records for tax purposes.
+* Regularly renew your licenses and permits.
+* Stay updated on changes in regulations and laws.
+
+
+**6. Professional Assistance:**
+
+It's strongly recommended to seek professional legal and accounting advice to navigate these processes effectively.  Consulting with a lawyer specializing in business law and a chartered accountant (CA) can significantly simplify the process and ensure compliance.
+
+**Disclaimer:** This information is for general guidance only and should not be considered legal advice.  The specific requirements can vary depending on the location, type of cafe, and other factors.  It is essential to consult with legal and financial professionals for personalized advice.
+
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:30:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:root:Received query: legal procedures for cafe in India
+INFO:root:Generated response: Setting up a cafe in India involves navigating several legal procedures at the central, state, and municipal levels.  The specific requirements vary depending on the location, size, and type of cafe (e.g., standalone, franchise).  However, here's a general overview of the key steps:
+
+**I. Pre-Operational Procedures:**
+
+1. **Business Plan & Registration:**
+    * **Company Registration:** Choose a business structure (sole proprietorship, partnership, LLP, or private limited company).  Register with the relevant authority (Ministry of Corporate Affairs for companies, Registrar of Firms for partnerships).  This determines your tax liabilities and legal standing.
+    * **GST Registration:** Obtain a Goods and Services Tax (GST) registration number. This is mandatory for businesses with an annual turnover exceeding a certain threshold (varies by state).
+    * **Shop & Establishment Act Registration:** Register your cafe under the relevant state's Shop and Establishment Act. This involves obtaining a license for operating your business.
+    * **Business Name Registration:** Register your cafe's name with the relevant authorities to ensure its uniqueness and prevent conflicts.
+
+2. **Licenses & Permissions:**
+    * **Food License:** Obtain a food license/FSSAI license (Food Safety and Standards Authority of India) which is crucial for food preparation and serving.  This involves meeting hygiene and safety standards.
+    * **Fire Safety License:** Obtain a fire safety license from the local fire department, demonstrating compliance with fire safety regulations.
+    * **Trade License:** Obtain a trade license from the municipal corporation or local body where your cafe is located. This permits you to conduct business in the specified area.
+    * **Liquor License (if applicable):** If you plan to serve alcohol, you'll need a separate liquor license from the Excise Department, a process which is highly regulated and varies significantly by state.
+    * **Music License (if applicable):**  If you plan to play copyrighted music, you'll need a license from the relevant performing rights organization (like PPL or IPRS).
+    * **Other Licenses:** Depending on your specific cafe offerings (e.g., bakery items, specific ingredients), you might need additional licenses.
+
+3. **Property Related:**
+    * **Lease Agreement:** If you're renting the space, secure a legally sound lease agreement with the landlord.
+    * **Building Plans & Approvals:** Ensure the building complies with all relevant building codes and obtain necessary approvals from the local authorities.
+
+4. **Staff Related:**
+    * **Employment Contracts:**  Establish proper employment contracts with your staff, ensuring compliance with labor laws.
+    * **PF & ESIC Registration (if applicable):** If you have a certain number of employees, you may need to register for the Employees' Provident Fund (EPF) and Employees' State Insurance (ESIC) schemes.
+
+**II. Ongoing Compliance:**
+
+* **Tax Compliance:** Regularly file GST returns, income tax returns, and other applicable taxes.
+* **License Renewals:** Renew all licenses and permits as they expire.
+* **Health & Safety Audits:** Maintain high standards of hygiene and safety, and be prepared for regular inspections.
+* **Labor Laws Compliance:** Adhere to all applicable labor laws related to wages, working hours, and employee benefits.
+
+**III. Seeking Professional Assistance:**
+
+Navigating these legal procedures can be complex.  It's highly recommended to engage the services of a legal professional and a chartered accountant familiar with Indian business regulations. They can help you understand the specific requirements for your location and ensure compliance throughout the process.
+
+
+**Disclaimer:** This information is for general guidance only and should not be considered legal advice.  Always consult with legal and financial professionals for advice specific to your situation.  Regulations and procedures can change, so it's crucial to stay updated on the latest requirements.
+
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:55:30] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:root:Received query: legal procedures for cafe in India
+INFO:root:Generated response: Setting up a cafe in India involves navigating several legal procedures.  The exact requirements can vary slightly by state, but these are the key steps:
+
+**I. Pre-Opening Procedures:**
+
+1. **Business Structure:** Decide on your business structure (sole proprietorship, partnership, LLP, Pvt Ltd).  Each has different registration and compliance requirements.  A Pvt Ltd offers liability protection but involves more complex procedures.
+
+2. **Registration:**
+    * **Sole Proprietorship:** No separate registration is required beyond potentially registering the business name.
+    * **Partnership:** Register the partnership deed with the Registrar of Firms.
+    * **LLP:** Register with the Ministry of Corporate Affairs (MCA).
+    * **Pvt Ltd:** Register with the MCA.
+
+3. **GST Registration:** Obtain a Goods and Services Tax (GST) registration if your turnover exceeds the threshold limit.  This is crucial for collecting and remitting GST.
+
+4. **Shop and Establishment Act Registration:** Register your cafe under the Shop and Establishment Act of your state.  This involves obtaining a license and complying with local regulations regarding business hours, employee welfare, etc.
+
+5. **Food License:** Obtain a food license from the Food Safety and Standards Authority of India (FSSAI). This is absolutely essential and involves inspections to ensure hygiene and safety standards are met.  The license type will depend on the scale of your operations.
+
+6. **Trade License/Profession Tax:** Obtain a trade license from your municipal corporation or local authority.  This is a permission to operate a business within the local jurisdiction.  Profession tax may also be applicable depending on your state and business structure.
+
+7. **Fire Safety Certificate:**  Obtain a fire safety certificate from the local fire department, demonstrating compliance with fire safety regulations. This is particularly important in areas with high foot traffic.
+
+8. **Other Licenses (Depending on Your Cafe's Offerings):**
+    * **Liquor License (if serving alcohol):**  This is a complex process, varying significantly by state, and often requires substantial paperwork and permissions.
+    * **Music License (if playing music):** You might need a license from the relevant performing rights organizations (like PPL or IPRS) if you play copyrighted music.
+    * **Outdoor Seating Permission (if applicable):**  You may need permission from the local authorities for outdoor seating.
+
+9. **Property Related Documents:** Ensure you have the necessary property documents (lease agreement, ownership deed) to legally operate from your chosen location.
+
+10. **Bank Account:** Open a separate bank account for your cafe's business transactions.
+
+**II. Ongoing Compliance:**
+
+* **GST Returns:** File GST returns regularly (monthly or quarterly, depending on your turnover).
+* **Tax Compliance:** Pay all applicable taxes (income tax, GST, professional tax, etc.) on time.
+* **FSSAI Compliance:** Maintain hygiene and safety standards as per FSSAI regulations.  Regular inspections may occur.
+* **Labor Laws Compliance:**  Comply with all applicable labor laws related to employee wages, working conditions, and other benefits.
+* **Renewal of Licenses:** Renew all licenses and permits as they expire.
+
+**III.  Legal Advice:**
+
+It is strongly recommended to consult with a legal professional specializing in business law and regulatory compliance in India.  They can help you navigate the complex legal landscape and ensure compliance with all applicable regulations, saving you time, money and potential legal issues.
+
+
+This information is for general guidance only and should not be considered legal advice. Laws and regulations can change, and specific requirements vary by location.  Always consult with relevant authorities and legal professionals for the most accurate and up-to-date information.
+
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:56:50] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:57:15] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:58:14] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 20:58:31] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:00:26] "GET /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:00:51] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:00:52] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:00:52] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:00:52] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:02:07] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:03:46] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:03:48] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:04:03] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:04:09] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:09:08] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 21:09:13] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 10:20:33] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 10:20:36] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 10:30:27] "OPTIONS /generate HTTP/1.1" 200 -
+DEBUG:google.api_core.retry:Retrying due to 503 The model is overloaded. Please try again later., sleeping 0.6s ...
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 10:30:32] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 10:30:48] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 10:30:54] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:16:53] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:16:56] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:17:36] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 11:17:42] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 13:35:35] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 13:35:37] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 14:52:54] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 14:53:00] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:46:31] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:46:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:46:42] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:46:47] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:47:12] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:47:14] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:55:31] "OPTIONS /generate HTTP/1.1" 200 -
+DEBUG:google.api_core.retry:Retrying due to 503 recvmsg:Operation timed out, sleeping 0.8s ...
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 19:56:41] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:04:22] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:04:25] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:04:38] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:04:44] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:05:11] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:05:12] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:10:18] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:10:23] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:13:58] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:14:01] "POST /generate HTTP/1.1" 200 -

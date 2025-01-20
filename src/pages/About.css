@@ -1,197 +1,156 @@
 .about-container {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-title {
+  padding-top: 140rem;
+  font-size: 3.5rem;
+}
+
+.about-intro {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+/* Mission Section */
+.mission-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.mission-text {
+  flex: 1;
+  max-width: 500px;
+  background-color: #333;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 370px;
+}
+
+.mission-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.mission-text p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.mission-image img {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 400px;
+  height: 370px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Vision Section */
+.vision-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.vision-text {
+  flex: 1;
+  max-width: 500px;
+  background-color: #333;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 370px;
+}
+
+.vision-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.vision-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.vision-image img {
+  margin-top: 5px;
+  width: 100%;
+  max-width: 400px;
+  height: 370px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Team Image */
+.team-image img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  height: 400px;
+  padding-top: 10rem;
+}
+
+/* Platform & Why Description */
+.platform-description,
+.Why-description {
+  padding-top: 5rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Why-title {
+  padding-top: 15rem;
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .mission-section,
+  .vision-section {
+    flex-direction: column;
     text-align: center;
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .about-title {
-    margin-top: 100px;
-    font-size: 3.5rem;
-    margin-bottom: 60px;
-  }
-  
-  .about-intro {
-    font-size: 1.8rem;
-    margin-bottom: 60px;
-  }
-  
-  .mission-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* gap: 20px; */
-    margin-bottom: 120px;
-    
-  }
-  
-  .mission-text {
-    flex: 1;
-    max-width: 500px;
-    background-color: #333;
-    /* padding: 20px; */
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    height: 370px;
-  }
-  
-  .mission-title {
-    font-size: 3rem;
-    margin-bottom: 15px;
-  }
-  
-  .mission-text p {
-    font-size: 1.2rem;
-    line-height: 1.7;
-  }
-  
-  .mission-image img {
-    margin-top: 5px;
-    width: 100%;
-    max-width: 400px;
-    height: 370px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    /* border-radius: 8px; */
-    
-  }
-  
-  /* .platform-description {
-    margin-bottom: 120px;
-    font-size: 2.2rem;
-    line-height: 1.6;
-    max-width: 800px;
-    
-  } */
-  
-  .team-image img {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 8px;
-    height: 400px;
-    margin-bottom: 120px;
-  }
-  
-  @media (max-width: 768px) {
-
-    .mission-section{
-        display: flex;
-    }
-    .mission-title
-    {
-        font-size: 1.5rem;
-    }
-    .mission-image{
-        width: 40%;
-        height: 40%;
-    }
-    .mission-text p{
-      padding-left: 5px;
-      padding-right: 5px;
-      font-size: 1rem;
-      text-align: center;
-      word-spacing: normal;
-    } 
   }
 
-  .vision-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* gap: 20px; */
-    margin-bottom: 120px;
-  }
-
-  .vision-text {
-    flex: 1;
-    max-width: 500px;
-    background-color: #333;
-    /* padding: 20px; */
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    height: 370px;
-  }
-
+  .mission-title,
   .vision-title {
-    font-size: 3rem;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
   }
-  
+
+  .mission-text p,
   .vision-text p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
   }
-  
+
+  .mission-image img,
   .vision-image img {
-    margin-top: 5px;
-    width: 100%;
-    max-width: 400px;
-    height: 370px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    /* border-radius: 8px; */
-    
-  }
-  @media (max-width: 768px) {
-
-    .vision-section{
-        display: flex;
-    }
-    .vision-title
-    {
-        font-size: 1.5rem;
-    }
-    .vision-image{
-        width: 40%;
-        height: 40%;
-    }
-    .vision-text p{
-      padding-left: 5px;
-      padding-right: 5px;
-      font-size: 1rem;
-      text-align: left;
-      word-spacing: normal;
-      margin-bottom: 0
-    } 
+    max-width: 80%;
+    height: auto;
+    margin-top: 5rem;
   }
 
-  .Why-title {
-    margin-top: 100px;
-    font-size: 3.5rem;
-    margin-bottom: 60px;
+  .team-image img {
+    max-width: 100%;
+    height: auto;
   }
 
-  /* .Why-description {
-    word-spacing: normal;
-   
-    margin-bottom: 120px;
-    font-size: 2.2rem;
-    line-height: 1.6;
-    max-width: 800px;
-    
+  .platform-description,
+  .Why-description {
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  @media (max-width: 768px){
-    .Why-description{
-      text-align: start;
-    }
-  } */
-
-  .platform-description, .Why-description {
-    margin-bottom: 120px;
-    font-size: 2.2rem;
-    line-height: 1.6;
-    max-width: 800px;
-    margin-left: auto;  /* Centers the content horizontally */
-    margin-right: auto; /* Centers the content horizontally */
-    text-align: center; /* Ensures text is centered within the block */
-  }
-  
-  @media (max-width: 768px) {
-    .platform-description, .Why-description {
-      text-align: start;  /* Keeps the text aligned left for smaller screens */
-      margin-left: 20px; /* Adds left margin for better spacing on mobile */
-      margin-right: 20px; /* Adds right margin for better spacing on mobile */
-    }
-  }
-  
+}
