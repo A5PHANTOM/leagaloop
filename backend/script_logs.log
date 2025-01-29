@@ -383,3 +383,224 @@ INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:10:18] "OPTIONS /generate HTTP/1.1" 
 INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:10:23] "POST /generate HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:13:58] "OPTIONS /generate HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:14:01] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:22:10] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:22:13] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:22:16] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:31:47] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jan/2025 20:31:50] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 11:47:44] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 11:47:47] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 11:48:04] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 11:48:05] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 12:17:43] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 13:41:17] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 13:41:20] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 13:41:45] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 13:41:51] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 22:03:50] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 22:03:55] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 22:04:14] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 22:04:17] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:02] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:04] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:06] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:07] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:07] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:08] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:09] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:14] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:14] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:15] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:46:17] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:29] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:29] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:31] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:31] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:32] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:33] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:34] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:34] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:34] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:35] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:36] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:36] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:40] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:40] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:42] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:49] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:47:49] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:53:18] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:53:20] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:53:37] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:53:38] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:59:44] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 18:59:45] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:00:07] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:00:08] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:00:39] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:00:40] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:00:47] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:00:49] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:28] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:32] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:39] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:40] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:47] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:47] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:52] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:01:53] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:02:43] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:02:43] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:02:56] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:02:58] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:06] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:10] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:29] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:33] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:44] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:46] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:57] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:03:59] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:04:32] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:04:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:04:49] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:04:50] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:04:58] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:04:59] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:05:27] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:05:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:05:44] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:05:48] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:05:57] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:06:01] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:06:09] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:06:10] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:06:52] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:06:53] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:07:08] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:07:10] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:07:35] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:07:35] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:07:41] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:07:42] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:08:11] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:08:14] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:08:28] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:08:32] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:08:45] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:08:46] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:09:06] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:09:07] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:09:42] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:09:43] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:10] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:12] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:25] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:27] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:36] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:38] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:53] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:10:58] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:11:09] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:11:14] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:11:25] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:11:30] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:11:50] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:11:50] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:02] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:05] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:14] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:16] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:24] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:29] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:51] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:12:51] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:12] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:13] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:21] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:22] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:31] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:32] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:53] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:13:56] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:19:50] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:19:51] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:19:58] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:19:59] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:21] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:22] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:40] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:41] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:48] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:49] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:57] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:20:57] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:21:12] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:21:13] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:21:20] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:21:58] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:22:01] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:23:45] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 19:23:51] "POST /generate HTTP/1.1" 200 -

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Chatbot.css'; // Import external CSS
+import NavBar from './NavBar';
 
 const Chatbot = () => {
   const [userQuery, setUserQuery] = useState('');
@@ -56,6 +57,8 @@ const Chatbot = () => {
   };
 
   return (
+    <>
+   <NavBar/>
     <div className="chatbot-container">
       <h1 className="chatbot-title">Legal Chatbot</h1>
       <form onSubmit={handleSubmit} className="chatbot-form">
@@ -79,6 +82,7 @@ const Chatbot = () => {
       {error && <p className="chatbot-error">{error}</p>}
       {response && <div className="chatbot-response">{response}</div>}
     </div>
+    </>
   );
 };
 
