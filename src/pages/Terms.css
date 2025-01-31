@@ -15,7 +15,7 @@ body, html {
   /* max-width: 900px; */
   color: white;
   text-align: left;
-  background-color: black; /* Optional, for better visibility */
+  background-color: #001f3f; /* Optional, for better visibility */
   border-radius: 8px; /* Optional, rounded corners */
 }
 

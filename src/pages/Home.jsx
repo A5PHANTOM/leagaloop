@@ -1,9 +1,11 @@
 import React,{useState} from 'react'
 import './Home.css';
 import NavBar from './NavBar';
-
+import { useNavigate } from 'react-router-dom';
 function Home() {
+  
   return (
+    
     <div>
       <div>
          <NavBar/>
@@ -12,7 +14,10 @@ function Home() {
         <p className="date">January 10, 2025</p>
         <h1>Introducing Legaloop </h1> 
         <div className="buttons">
-          <button className="try-button">Try Legaloop →</button>
+        <button className="try-button" onClick={() => (window.location.href = '/Chatbot')}>
+  Try Legaloop →
+</button>
+
           <button className="buy-button">Buy Premium ✔</button>
         </div>
         <div className="description">

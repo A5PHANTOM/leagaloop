@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './Chatbot.css'; // Import external CSS
-import NavBar from './NavBar';
+import './Chatbot.css'; // Ensure this has responsive styles
 
 const Chatbot = () => {
   const [userQuery, setUserQuery] = useState('');
@@ -37,11 +36,7 @@ const Chatbot = () => {
       }
 
       const data = await res.json();
-      if (data.response) {
-        setResponse(formatResponse(data.response)); // Format response
-      } else {
-        setResponse('No valid response returned from the server.');
-      }
+      setResponse(data.response ? formatResponse(data.response) : 'No valid response returned.');
     } catch (err) {
       console.error('Error:', err);
       setError('Error generating content. Please try again later.');
@@ -51,37 +46,57 @@ const Chatbot = () => {
   };
 
   const formatResponse = (responseText) => {
-    // Split and format response into bullet points
-    const lines = responseText.split('*').filter((line) => line.trim());
-    return lines.map((line, index) => <p key={index} className="chatbot-response-item">&#8226; {line.trim()}</p>);
+    return responseText
+      .split('*')
+      .filter((line) => line.trim())
+      .map((line, index) => (
+        <p key={index} className="chatbot-response-item">
+          • {line.trim()}
+        </p>
+      ));
   };
 
   return (
     <>
-   <NavBar/>
-    <div className="chatbot-container">
-      <h1 className="chatbot-title">Legal Chatbot</h1>
-      <form onSubmit={handleSubmit} className="chatbot-form">
-        <input
-          type="text"
-          value={userQuery}
-          onChange={handleInputChange}
-          placeholder="Ask about legal procedures"
-          className="chatbot-input"
-        />
-        <button
-          type="submit"
-          disabled={loading}
-          className={`chatbot-button ${loading ? 'disabled' : ''}`}
-        >
-          {loading ? 'Loading...' : 'Generate'}
-        </button>
-      </form>
+ 
+ <a href="/">
+  <img className="logo" src="/src/assets/Legaloop.webp" alt="Legaloop Logo" />
+</a>
+      
+      {/* Chatbot Wrapper - Pushes Content Below Navbar */}
+      
+        <div className="chatbot-container">
+          <h1 className="chatbot-title">Legal Chatbot</h1>
+          <form onSubmit={handleSubmit} className="chatbot-form">
+            <input
+              type="text"
+              value={userQuery}
+              onChange={handleInputChange}
+              placeholder="Ask about legal procedures..."
+              className="chatbot-input"
+            />
+            <button
+              type="submit"
+              disabled={loading}
+              className={`chatbot-button ${loading ? 'disabled' : ''}`}
+            >
+              {loading ? 'Loading...' : 'Generate'}
+            </button>
+          </form>
 
-      {loading && <p className="chatbot-loading">Loading...</p>}
-      {error && <p className="chatbot-error">{error}</p>}
-      {response && <div className="chatbot-response">{response}</div>}
-    </div>
+          {loading && <p className="chatbot-loading">Loading...</p>}
+          {error && <p className="chatbot-error">{error}</p>}
+          {/* Scrollable Response Box */}
+        {response && (
+          <div className="chatbot-response-container">
+            <div className="chatbot-response">{response}</div>
+          </div>
+        )}
+          <div className='disclamation'><strong>
+          I am not a licensed attorney and therefore cannot provide specific legal advice. For professional legal assistance, it is recommended that you consult a qualified lawyer</strong></div>
+       
+        </div>
+    
     </>
   );
 };
