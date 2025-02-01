@@ -16,8 +16,9 @@ function NavBar() {
       <div className='nav-options'>
         <a href="/About">About</a>
         <a href="/Terms">Research</a>
-        <a href="#booking">Booking</a>
+        <a href="/Booking">Booking</a>
         <a href="/Chatbot">Company</a>
+        <a href="/Lawyer">Lawyer</a>
       </div>
 
       <div className="menu-toggle" onClick={toggleMenu}>

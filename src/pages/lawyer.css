@@ -1,0 +1,81 @@
+.lawyer-page {
+  background-color: black; /* Sets background color */
+  color: white; /* Ensures text remains visible */
+  min-height: 100vh; /* Ensures full screen height */
+  min-width: 100vw; /* Corrects the full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* background-color: black; 
+color: white; 
+min-height: 100vh; 
+min-width: 100vw; 
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+text-align: center; */
+
+
+
+
+
+
+
+
+
+
+
+.lawyer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.lawyer-form input,
+.lawyer-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.lawyer-card {
+  display: flex;
+  align-items: center;
+  background-color: #d3d3d3;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.info-section {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.book-btn {
+  background-color: #f4a83e;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #d98c2c;
+}

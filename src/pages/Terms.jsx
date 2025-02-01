@@ -3,6 +3,7 @@ import "./Terms.css"
 import NavBar from './NavBar'
 function Terms() {
   return (
+    <div className='terms-frame'>
     <div>
       <NavBar/>
     <div>
@@ -92,6 +93,7 @@ function Terms() {
         <p>Email: support@legalbot.com</p>
         <p>Phone: +91-9048310440</p>
       </section>
+    </div>
     </div>
     </div>
     </div>

@@ -1,9 +1,13 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #191654, #43C6AC);
-  color: white;
- 
+.home-frame{
+  background-color: black; /* Sets background color */
+  color: white; /* Ensures text remains visible */
+  min-height: 100vh; /* Ensures full screen height */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   
 }
 
@@ -69,5 +73,63 @@ h1 {
   font-weight: bold;
 }
 .description p {
-  margin-bottom: 40px; /* Spacing between paragraphs */
+  margin-bottom: 10px; /* Spacing between paragraphs */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  h1 {
+    margin-top: 20px;
+    font-size: 7vw; /* Slightly smaller title */
+  }
+
+  .date {
+    margin-top: 20vh;
+    font-size: 3.5vw;
+  }
+
+  .buttons {
+    flex-direction: column; /* Stack buttons on small screens */
+    align-items: center;
+  }
+
+  .try-button,
+  .buy-button {
+    width: 80%; /* Full-width buttons on small screens */
+    font-size: 5vw;
+  }
+
+  .description {
+    font-size: 4vw;
+    padding: 0 5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 3vw;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  .date {
+    font-size: 3vw;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .try-button,
+  .buy-button {
+    width: 90%; /* Ensures easy tapping */
+    font-size: 5vw;
+  }
+
+  .description {
+    font-size: 3.8vw;
+    padding: 0 4vw;
+  }
 }

@@ -1,19 +1,27 @@
 
-body {
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #001f3f
+
+
+
+.chatbox-frame {
  
+  background-color: black; /* Sets background color */
+  color: white; /* Ensures text remains visible */
+  min-height: 100vh; /* Ensures full screen height */
+  min-width: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
  
-  
 }
 
 
 .chatbot-container {
  
-  /* margin-top: 30px; */
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   padding: 20px;
   background: #D3D3D3;

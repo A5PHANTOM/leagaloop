@@ -1,15 +1,16 @@
 import React,{useState} from 'react'
 import './Home.css';
 import NavBar from './NavBar';
+import Footer from './footer';
 import { useNavigate } from 'react-router-dom';
 function Home() {
   
   return (
     
-    <div>
-      <div>
+    <div className='home-frame'>
+    
          <NavBar/>
-         </div>
+       
        <div className="content">
         <p className="date">January 10, 2025</p>
         <h1>Introducing Legaloop </h1> 
@@ -36,7 +37,9 @@ function Home() {
           Legaloop is available for free!
         </p>
       </div>
+      
       </div>
+{/* <Footer/> */}
     </div>
   )
 }

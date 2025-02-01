@@ -57,14 +57,15 @@ const Chatbot = () => {
   };
 
   return (
-    <>
+   
+    <div className='chatbox-frame'>
  
  <a href="/">
   <img className="logo" src="/src/assets/Legaloop.webp" alt="Legaloop Logo" />
 </a>
       
       {/* Chatbot Wrapper - Pushes Content Below Navbar */}
-      
+     
         <div className="chatbot-container">
           <h1 className="chatbot-title">Legal Chatbot</h1>
           <form onSubmit={handleSubmit} className="chatbot-form">
@@ -96,8 +97,8 @@ const Chatbot = () => {
           I am not a licensed attorney and therefore cannot provide specific legal advice. For professional legal assistance, it is recommended that you consult a qualified lawyer</strong></div>
        
         </div>
-    
-    </>
+        </div>
+        
   );
 };
 

@@ -1,0 +1,63 @@
+.lawyer-page {
+    background-color: #1e2a42;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .lawyer-card {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 200px;
+    width: 50%;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .info-section {
+    flex-grow: 1;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .book-btn {
+    background-color: #f4a83e;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background-color: #d98c2c;
+  }
+  
+  @media (max-width:678px) {
+
+    .lawyer-card {
+        width: 60%;
+    }
+    .profile-icon{
+            width: 80px;
+            height: 80px;
+          }
+
+
+    
+  }
