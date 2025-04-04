@@ -1,155 +1,235 @@
-
-
-
-
-.chatbox-frame {
- 
-  background-color: black; /* Sets background color */
-  color: white; /* Ensures text remains visible */
-  min-height: 100vh; /* Ensures full screen height */
-  min-width: 100vh;
-  width: 100%;
+/* Main Container */
+.legal-bot-container {
   display: flex;
   flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.legal-bot-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.logo-container {
+  display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  overflow: hidden;
- 
+  margin-bottom: 10px;
 }
 
-
-.chatbot-container {
- 
-  width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background: #D3D3D3;
-  border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.chatbot-title {
-  font-size: 2.6rem;
-  margin-bottom: 20px;
-  color: #333;
-
-}
-
-.chatbot-form {
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  border-radius: 50%;
   display: flex;
-  
-  flex-direction: column;
   align-items: center;
-  /* gap: 10vh; */
+  justify-content: center;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-.chatbot-input {
-  width: 95%;
-  height: 30px;
-  padding: 12px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  margin-bottom: 50px;
+.legal-bot-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
 }
 
-.chatbot-button {
+.tagline {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Chat Container */
+.chat-container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
- height: 60px;
-  width: 50%;
-  padding: 12px;
-  font-size:  1.5rem;
-  color: white;
-  background-color: #000000;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-  margin-bottom: 20px;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  overflow: hidden;
 }
 
-.chatbot-button:hover {
-  background-color: #0056b3;
-}
-
-.chatbot-button.disabled {
-  background-color: #cccccc;
-  cursor: not-allowed;
-}
-
-.chatbot-loading {
-  color: #007bff;
-  font-size: 1rem;
-}
-
-.chatbot-error {
-  color: red;
-  font-size: 1rem;
-}
-
-.chatbot-response {
-  
- height: 50vh;
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
   padding: 10px;
-  background: #f8f9fa;
+  margin-bottom: 15px;
+  background-color: white;
   border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Message Styles */
+.message {
+  margin-bottom: 15px;
+  max-width: 80%;
+  position: relative;
+}
+
+.message.user {
+  margin-left: auto;
+  text-align: right;
+}
+
+.message.bot {
+  margin-right: auto;
+}
+
+.user-message-content {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 18px 18px 0 18px;
+  display: inline-block;
   text-align: left;
 }
 
-.chatbot-response-item {
-  font-size: 1rem;
+.bot-message-content {
+  background-color: #f1f1f1;
   color: #333;
+  padding: 15px;
+  border-radius: 18px 18px 18px 0;
 }
 
-/* Responsive Styles */
-@media (max-width: 480px) {
-  .chatbot-container {
-    padding: 15px;
-  }
-
-  .chatbot-title {
-    font-size: 1.5rem;
-  }
-
-  .chatbot-input {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .chatbot-button {
-    
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .chatbot-response {
-    padding: 30px;
-  }
-
+.bot-message-content p {
+  margin: 0 0 15px 0;
+  line-height: 1.6;
 }
-.disclamation{
-  color: red;
-margin-top: 50px;
-  }
 
-  .chatbot-response-container {
-    max-height: 400px; /* Set max height */
-    overflow-y: auto; /* Enable vertical scrolling */
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-top: 10px;
-    background: #f9f9f9;
-    border-radius: 8px;
-  }
-  
-  .chatbot-response {
-    white-space: pre-line;
-  }
-  
-  .chatbot-response-item {
-    margin-bottom: 8px;
-  }
-  
+.bot-message-content .legal-points {
+  margin-top: 10px;
+}
+
+.bot-message-content h3 {
+  margin: 15px 0 8px 0;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+.bot-message-content ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.bot-message-content li {
+  margin-bottom: 6px;
+}
+
+.bot-message-content .note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.message-time {
+  font-size: 0.7rem;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
+/* Input Area */
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-container input:focus {
+  border-color: #3498db;
+}
+
+.input-container button {
+  padding: 0 25px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+/* Loading Indicators */
+.typing-indicator {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background-color: #7f8c8d;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  animation: bounce 1.4s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-5px); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Disclaimer */
+.disclaimer {
+  padding: 10px 20px;
+  background-color: #f1c40f;
+  color: #2c3e50;
+  font-size: 0.8rem;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.disclaimer p {
+  margin: 0;
+}

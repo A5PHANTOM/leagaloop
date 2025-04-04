@@ -1,41 +1,58 @@
-import React,{useState} from 'react'
-import "./NavBar.css"
-function NavBar() {
+import React, { useState } from "react";
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-      };
+function NavBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
-    <div className='navbar'>
-      <a href='/'>
-      <img className='logo' src="/src/assets/Legaloop.webp" alt="Legaloop Logo" />
+    <div className="fixed top-0 w-full bg-black py-5 flex justify-center items-center z-50">
+      <a href="/">
+        <img
+          className="absolute left-5 w-20 top-4"
+          src="/src/assets/Legaloop.webp"
+          alt="Legaloop Logo"
+        />
       </a>
-      <div className='nav-options'>
-        <a href="/About">About</a>
-        <a href="/Terms">Research</a>
-        <a href="/Booking">Booking</a>
-        <a href="/Chatbot">Company</a>
-        <a href="/Lawyer">Lawyer</a>
+      <div className="hidden md:flex gap-6 text-white font-bold">
+        <a href="/About" className="hover:text-blue-300">About</a>
+        <a href="/Terms" className="hover:text-blue-300">Research</a>
+        <a href="/Booking" className="hover:text-blue-300">Booking</a>
+        <a href="/Chatbot" className="hover:text-blue-300">Company</a>
+        <a href="/Lawyer" className="hover:text-blue-300">Lawyer</a>
       </div>
 
-      <div className="menu-toggle" onClick={toggleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
+      {/* Mobile Menu Toggle */}
+      <div className="md:hidden flex flex-col cursor-pointer gap-1 absolute right-5" onClick={toggleMenu}>
+        <span className="w-6 h-1 bg-white"></span>
+        <span className="w-6 h-1 bg-white"></span>
+        <span className="w-6 h-1 bg-white"></span>
       </div>
-    
-      <div className={`mobile-drawer ${isMenuOpen ? 'active' : ''}`}>
-        <a href="/About" onClick={toggleMenu}>About</a>
-        <a href="#research" onClick={toggleMenu}>Research</a>
-        <a href="#booking" onClick={toggleMenu}>Booking</a>
-        <a href="#company" onClick={toggleMenu}>Company</a>
+
+      {/* Mobile Drawer */}
+      <div
+        className={`fixed top-16 right-0 bg-black text-white p-5 flex flex-col gap-4 w-48 rounded-bl-lg shadow-lg transition-transform transform ${isMenuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}
+      >
+        <a href="/About" className="hover:text-blue-300" onClick={toggleMenu}>
+          About
+        </a>
+        <a href="/Terms" className="hover:text-blue-300" onClick={toggleMenu}>
+          Research
+        </a>
+        <a href="/Booking" className="hover:text-blue-300" onClick={toggleMenu}>
+          Booking
+        </a>
+        <a href="/Chatbot" className="hover:text-blue-300" onClick={toggleMenu}>
+          Company
+        </a>
+        <a href="/Lawyer" className="hover:text-blue-300" onClick={toggleMenu}>
+          Lawyer
+        </a>
       </div>
     </div>
-
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;

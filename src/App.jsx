@@ -7,8 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Terms from "./pages/Terms";
 import Chatbot from "./pages/Chatbot";
-import LawyerPage from "./pages/lawyer";
 import Booking from "./pages/Booking";
+import LawyerPage from "./pages/Lawyer";
 
 
 
@@ -26,8 +26,8 @@ function App(){
 <Route path="/About"element={<About/>}/>
 <Route path="/Terms"element={<Terms/>}/>
 <Route path="/Chatbot"element={<Chatbot/>}/>
-<Route path="/Lawyer"element={<LawyerPage/>}/>
 <Route path="/Booking"element={<Booking/>}/>
+<Route path="/Lawyer" element={<LawyerPage/>}/>
 </Routes>
 </>
   )}

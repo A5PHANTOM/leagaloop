@@ -1278,3 +1278,704 @@ INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:55:19] "OPTIONS /generate HTTP/1.1" 
 INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:55:24] "POST /generate HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:55:48] "OPTIONS /generate HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 14:55:52] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 17:17:49] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 17:17:56] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 17:33:48] "OPTIONS /generate HTTP/1.1" 200 -
+DEBUG:google.api_core.retry:Retrying due to 503 recvmsg:Connection reset by peer, sleeping 0.1s ...
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 17:34:13] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 17:34:30] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2025 17:34:37] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2025 09:47:00] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2025 09:47:07] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2025 09:52:11] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2025 09:52:16] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:08:33] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:08:38] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:17:01] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:17:07] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:17:45] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:17:52] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:18:19] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:18:27] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:19:27] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:19:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:23:23] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:23:30] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:24:10] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:24:19] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:24:36] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:24:44] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:52:24] "[33mGET /about HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 17:52:33] "[31m[1mGET /generate HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 18:14:30] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 18:14:33] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 18:14:38] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 18:14:43] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 18:14:56] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Feb/2025 18:15:04] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 10:33:40] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 10:33:43] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 10:34:06] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 10:34:11] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:03:41] "OPTIONS /generate HTTP/1.1" 200 -
+DEBUG:google.api_core.retry:Retrying due to 503 sendmsg: Broken pipe (32), sleeping 0.6s ...
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 11:03:47] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 12:43:02] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 12:43:07] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 12:43:37] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 12:43:44] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 15:21:03] "OPTIONS /generate HTTP/1.1" 200 -
+DEBUG:google.api_core.retry:Retrying due to 503 sendmsg: Broken pipe (32), sleeping 1.0s ...
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 15:21:37] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 15:22:14] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2025 15:22:27] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:01:12] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:01:16] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:10:17] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:10:20] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:10:43] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:10:49] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:14:07] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:14:07] "GET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:14:07] "GET /uploads/IMG_0089.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:14:07] "GET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:14:07] "GET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:15:38] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:15:38] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:15:38] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:15:38] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:15:38] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:18:04] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:18:04] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:18:04] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:18:04] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:18:04] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:19:58] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:01] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:01] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:01] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:01] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:01] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:20:02] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:21:01] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:23] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:33] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:38] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:40] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:40] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:40] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:40] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:26:40] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:29:56] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:29:58] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:29:58] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:30:01] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:30:11] "[33mOPTIONS /generate HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:34] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:38] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:39] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:39] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:39] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:39] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:39] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:49] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:49] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:49] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:49] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:49] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:51] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:51] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:52] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:52] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:52] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:55] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:31:58] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:32:00] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:39] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:40] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:40] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:41] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:43] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:45] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:33:51] "[33mOPTIONS /generate HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:34:04] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:34:08] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:36:48] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:36:48] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:36:48] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:36:48] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:36:48] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:36:52] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:39:50] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:39:50] "[36mGET /uploads/PHOTO-2025-02-25-10-43-54.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:39:50] "[36mGET /uploads/PHOTO-2025-02-25-10-47-12.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:39:50] "[36mGET /uploads/IMG_0089.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:39:50] "[36mGET /uploads/PHOTO-2025-02-25-11-02-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:41:18] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:41:58] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:42:02] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:43:25] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:43:28] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:47:15] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:47:18] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:47:53] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:47:57] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:49:19] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:49:22] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:49:24] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:49:26] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:49:57] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:05] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:07] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:10] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:12] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:40] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:41] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:41] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:41] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:42] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:42] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:44] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:44] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:50:44] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:52:42] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:53:22] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:53:22] "[33mGET /uploads/null HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:53:32] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:53:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:53:36] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:53:36] "[33mGET /uploads/null HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:54:46] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:54:46] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:54:50] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:54:50] "[33mGET /uploads/null HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:54:58] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:54:58] "[33mGET /uploads/null HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:55:01] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:55:01] "[33mGET /uploads/null HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:55:10] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:58:50] "[33mOPTIONS /delete_lawyer/5 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:59:34] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:59:52] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:59:54] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:59:55] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:59:55] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 18:59:55] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:00:06] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:00:06] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:00:06] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:00:08] "[35m[1mGET /lawyers HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:22] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:22] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:22] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:30] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:30] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:37] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:37] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:01:42] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:14] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:16] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:16] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:16] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:16] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:16] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:16] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:17] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:20] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:20] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:23] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:27] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:29] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:29] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:41] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:04:43] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:08:08] "[33mDELETE /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:10:42] "[33mDELETE /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:11:35] "[33mDELETE /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:11:44] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:12:46] "OPTIONS /delete_lawyer/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:12:53] "[35m[1mDELETE /delete_lawyer/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:14:52] "[33mDELETE /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:16:14] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:16:14] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:16:21] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:16:23] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:16:31] "[33mDELETE /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:20:06] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:20:10] "POST /generate HTTP/1.1" 200 -
+ERROR:root:Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:20:41] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:21:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:21:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:21:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:21:57] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:22:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:22:38] "[33mGET /pages/Home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:22:40] "[33mGET /pages/Home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:22:40] "[33mGET /pages/Home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:23:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2025 19:23:12] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-650-344
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:20:47] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:20:51] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:25:38] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:25:38] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:25:43] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:25:56] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:25:56] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:26:12] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:26:12] "[33mGET /uploads/https://chatgpt.com/c/67c5a08d-cf14-8010-8049-e1085e05d5f6 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:29:41] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:29:41] "GET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:29:46] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:29:49] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:29:57] "[33mOPTIONS /delete_lawyer/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:30:05] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:46:25] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 09:46:29] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:23:18] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:23:18] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:23:28] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:23:28] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:23:56] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:23:56] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:28:21] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:28:30] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:31:07] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 18:31:15] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:06] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:14] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:18] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:26] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:36] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:46] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:49] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:11:55] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:13:25] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:13:25] "GET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:13:54] "GET /lawyers HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:13:54] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:13:59] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:14:05] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 338-404-882
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:16:06] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:16:10] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:16:19] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:16:28] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:18:21] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:18:30] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:20:09] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:20:18] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:21:18] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:21:28] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:22:26] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:22:36] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:23:50] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:24:01] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:24:54] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:24:57] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:25:49] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:25:52] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:26:31] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:26:34] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:26:38] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:26:40] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 740-505-914
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:52:51] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:52:54] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:58:50] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 18:58:53] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 740-505-914
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:00:32] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:00:36] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:00:51] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:01:00] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 740-505-914
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:02:34] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:03:14] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:03:17] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:03:20] "OPTIONS /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:03:24] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Apr/2025 19:04:25] "POST /generate HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2025-04-02 19:04:49,278 - WARNING -  * Debugger is active!
+2025-04-02 19:04:49,284 - INFO -  * Debugger PIN: 740-505-914
+2025-04-02 19:04:50,781 - INFO - 127.0.0.1 - - [02/Apr/2025 19:04:50] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:04:50,782 - INFO - Received query: hwy
+2025-04-02 19:04:52,602 - INFO - Generated response: "Hwy" is an abbreviation for "highway"....
+2025-04-02 19:04:52,603 - INFO - 127.0.0.1 - - [02/Apr/2025 19:04:52] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:05:01,787 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:01] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:05:01,789 - INFO - Received query: hey whats ur name
+2025-04-02 19:05:02,368 - INFO - Generated response: I don't have a name....
+2025-04-02 19:05:02,370 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:02] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:05:16,754 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:16] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:05:16,757 - INFO - Received query: ur name will be Legaloop
+2025-04-02 19:05:17,664 - INFO - Generated response: I understand you'd like to give me the name "Legaloop," but as a large language model, I don't have ...
+2025-04-02 19:05:17,666 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:17] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:05:28,361 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:28] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:05:28,364 - INFO - Received query: whats ur name
+2025-04-02 19:05:28,989 - INFO - Generated response: I don't have a name....
+2025-04-02 19:05:28,990 - INFO - 127.0.0.1 - - [02/Apr/2025 19:05:28] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:07:06,645 - INFO -  * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2025-04-02 19:07:09,135 - WARNING -  * Debugger is active!
+2025-04-02 19:07:09,140 - INFO -  * Debugger PIN: 740-505-914
+2025-04-02 19:07:13,647 - INFO - 127.0.0.1 - - [02/Apr/2025 19:07:13] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:07:14,567 - INFO - 127.0.0.1 - - [02/Apr/2025 19:07:14] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:08:48,855 - INFO -  * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+2025-04-02 19:08:51,359 - WARNING -  * Debugger is active!
+2025-04-02 19:08:51,364 - INFO -  * Debugger PIN: 740-505-914
+2025-04-02 19:08:52,759 - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:52] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:08:54,681 - INFO - 127.0.0.1 - - [02/Apr/2025 19:08:54] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:10:03,013 - INFO - 127.0.0.1 - - [02/Apr/2025 19:10:03] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:14:25,516 - INFO - 127.0.0.1 - - [02/Apr/2025 19:14:25] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:14:27,449 - INFO - 127.0.0.1 - - [02/Apr/2025 19:14:27] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:19:52,043 - INFO - 127.0.0.1 - - [02/Apr/2025 19:19:52] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:19:53,963 - INFO - 127.0.0.1 - - [02/Apr/2025 19:19:53] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:20:02,296 - INFO - 127.0.0.1 - - [02/Apr/2025 19:20:02] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:20:02,833 - INFO - 127.0.0.1 - - [02/Apr/2025 19:20:02] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:21:08,055 - INFO - 127.0.0.1 - - [02/Apr/2025 19:21:08] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:21:09,060 - INFO - 127.0.0.1 - - [02/Apr/2025 19:21:09] "POST /generate HTTP/1.1" 200 -
+2025-04-02 19:21:14,995 - INFO - 127.0.0.1 - - [02/Apr/2025 19:21:14] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-02 19:21:19,180 - INFO - 127.0.0.1 - - [02/Apr/2025 19:21:19] "POST /generate HTTP/1.1" 200 -
+2025-04-04 10:23:13,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://192.168.137.181:5006
+2025-04-04 10:23:13,666 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 10:23:13,667 - INFO -  * Restarting with stat
+2025-04-04 10:23:13,928 - WARNING -  * Debugger is active!
+2025-04-04 10:23:13,938 - INFO -  * Debugger PIN: 405-902-381
+2025-04-04 10:23:18,064 - INFO - 127.0.0.1 - - [04/Apr/2025 10:23:18] "GET /lawyers HTTP/1.1" 200 -
+2025-04-04 10:23:18,072 - INFO - 127.0.0.1 - - [04/Apr/2025 10:23:18] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-04 10:28:19,996 - INFO -  * Detected change in '/Users/mac/Desktop/react/mini-project/legaloop/backend/app.py', reloading
+2025-04-04 10:28:20,070 - INFO -  * Restarting with stat
+2025-04-04 10:28:20,490 - WARNING -  * Debugger is active!
+2025-04-04 10:28:20,496 - INFO -  * Debugger PIN: 405-902-381
