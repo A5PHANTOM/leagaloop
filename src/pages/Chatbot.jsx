@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
 import './Chatbot.css';
+
+const API_BASE_URL = 'http://localhost:5006'; // Adjust if your backend runs elsewhere
 
 const LegalBot = () => {
   const [input, setInput] = useState('');
@@ -7,52 +10,62 @@ const LegalBot = () => {
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
+  // Load from localStorage
   useEffect(() => {
-    setMessages([{
-      sender: 'bot',
-      text: 'Hello! I\'m Legaloop, your legal assistant focusing on Indian laws with Kerala-specific expertise. How can I help you today?',
-      timestamp: new Date().toISOString()
-    }]);
+    const savedMessages = localStorage.getItem('legalbot-messages');
+    if (savedMessages) {
+      setMessages(JSON.parse(savedMessages));
+    } else {
+      setMessages([{
+        sender: 'bot',
+        text: 'Hello! I\'m Legaloop, your legal assistant focusing on Indian laws with Kerala-specific expertise. How can I help you today?',
+        timestamp: new Date().toISOString()
+      }]);
+    }
   }, []);
+
+  // Save to localStorage on messages update
+  useEffect(() => {
+    localStorage.setItem('legalbot-messages', JSON.stringify(messages));
+  }, [messages]);
+
+  // Auto-scroll to bottom
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!input.trim()) return;
+    const query = input.trim();
+    if (!query || loading) return;
 
     const userMessage = {
       sender: 'user',
-      text: input,
+      text: query,
       timestamp: new Date().toISOString()
     };
-
     setMessages(prev => [...prev, userMessage]);
     setInput('');
     setLoading(true);
 
     try {
-      // Replace this with your actual API call
-      const botResponse = await generateLegalResponse(input);
-      
+      const response = await axios.post(`${API_BASE_URL}/generate`, { query });
+
       const botMessage = {
         sender: 'bot',
-        text: botResponse,
+        text: response.data.response,
         timestamp: new Date().toISOString()
       };
-
       setMessages(prev => [...prev, botMessage]);
     } catch (error) {
-      console.error('Error:', error);
+      console.error('API Error:', error);
       setMessages(prev => [...prev, {
         sender: 'bot',
-        text: 'Sorry, I encountered an error. Please try again.',
+        text: 'Sorry, I encountered an error processing your request. Please try again.',
         timestamp: new Date().toISOString()
       }]);
     } finally {
@@ -60,105 +73,8 @@ const LegalBot = () => {
     }
   };
 
-  const generateLegalResponse = async (query) => {
-    // This is a mock function - replace with your actual API call
-    // The response formatting will remain the same
-    
-    const lowerQuery = query.toLowerCase();
-    
-    if (lowerQuery.includes('company registration') || lowerQuery.includes('business registration')) {
-      return `
-      <div class="legal-response">
-        <h3>Company Registration Process in India</h3>
-        
-        <p>Here are the key legal requirements for registering a company in India:</p>
-        
-        <div class="legal-section">
-          <h4>1. Choose Business Structure</h4>
-          <ul>
-            <li><strong>Private Limited Company:</strong> Most common for startups</li>
-            <li><strong>LLP (Limited Liability Partnership):</strong> For professional services</li>
-            <li><strong>One Person Company:</strong> For solo entrepreneurs</li>
-          </ul>
-        </div>
-        
-        <div class="legal-section">
-          <h4>2. Documentation Required</h4>
-          <ul>
-            <li>Digital Signature Certificate (DSC) for directors</li>
-            <li>Director Identification Number (DIN)</li>
-            <li>Name approval from MCA (RUN service)</li>
-            <li>Registered office proof</li>
-          </ul>
-        </div>
-        
-        <div class="legal-section">
-          <h4>3. Kerala-Specific Requirements</h4>
-          <ul>
-            <li>Additional trade license from local municipality</li>
-            <li>Registration under Kerala Shops & Establishment Act</li>
-            <li>Compliance with Kerala Labour Welfare Fund rules</li>
-          </ul>
-        </div>
-        
-        <div class="legal-section">
-          <h4>4. Ongoing Compliance</h4>
-          <ul>
-            <li>GST registration if turnover exceeds ₹40 lakhs (₹20 lakhs for Kerala)</li>
-            <li>Professional tax registration in Kerala</li>
-            <li>Annual filings with MCA</li>
-          </ul>
-        </div>
-        
-        <p class="note">Processing time: 10-15 days for complete registration</p>
-      </div>
-      `;
-    }
-    
-    if (lowerQuery.includes('website') || lowerQuery.includes('online business')) {
-      return `
-      <div class="legal-response">
-        <h3>Legal Requirements for Websites/Online Business in India</h3>
-        
-        <div class="legal-section">
-          <h4>Mandatory Requirements:</h4>
-          <ul>
-            <li><strong>Privacy Policy:</strong> Required under IT Act, 2000</li>
-            <li><strong>Terms of Service:</strong> Legally binding agreement</li>
-            <li><strong>Refund Policy:</strong> For e-commerce businesses</li>
-          </ul>
-        </div>
-        
-        <div class="legal-section">
-          <h4>Kerala-Specific Considerations:</h4>
-          <ul>
-            <li>Compliance with Kerala GST regulations</li>
-            <li>Registration under Kerala Professional Tax if applicable</li>
-            <li>Adherence to Kerala Consumer Protection guidelines</li>
-          </ul>
-        </div>
-      </div>
-      `;
-    }
-    
-    return `
-    <div class="legal-response">
-      <p>I specialize in Indian legal matters with Kerala-specific expertise. Here's how I can help:</p>
-      
-      <div class="legal-section">
-        <h4>Common Legal Topics:</h4>
-        <ul>
-          <li>Company/business registration</li>
-          <li>GST and taxation</li>
-          <li>Employment laws</li>
-          <li>Property/real estate laws</li>
-          <li>Intellectual property rights</li>
-        </ul>
-      </div>
-      
-      <p>Please ask about any specific legal requirement in India, and I'll provide detailed information with Kerala-specific aspects where relevant.</p>
-    </div>
-    `;
+  const formatResponse = (text) => {
+    return { __html: text.replace(/\n/g, '<br/>') };
   };
 
   return (
@@ -176,14 +92,11 @@ const LegalBot = () => {
       <div className="chat-container">
         <div className="messages-container">
           {messages.map((message, index) => (
-            <div 
-              key={index} 
-              className={`message ${message.sender}`}
-            >
+            <div key={index} className={`message ${message.sender}`}>
               {message.sender === 'bot' ? (
                 <div 
                   className="bot-message-content"
-                  dangerouslySetInnerHTML={{ __html: message.text }}
+                  dangerouslySetInnerHTML={formatResponse(message.text)}
                 />
               ) : (
                 <div className="user-message-content">
@@ -195,6 +108,7 @@ const LegalBot = () => {
               </div>
             </div>
           ))}
+
           {loading && (
             <div className="message bot">
               <div className="typing-indicator">
@@ -204,6 +118,7 @@ const LegalBot = () => {
               </div>
             </div>
           )}
+
           <div ref={messagesEndRef} />
         </div>
 
@@ -214,10 +129,15 @@ const LegalBot = () => {
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ask about Indian legal requirements..."
             disabled={loading}
+            aria-label="Type your legal question"
           />
-          <button type="submit" disabled={loading || !input.trim()}>
+          <button 
+            type="submit" 
+            disabled={loading || !input.trim()}
+            className={loading ? 'loading' : ''}
+          >
             {loading ? (
-              <span className="spinner"></span>
+              <span className="spinner" aria-hidden="true"></span>
             ) : (
               'Send'
             )}
