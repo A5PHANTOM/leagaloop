@@ -18,9 +18,9 @@ function Home() {
             onClick={() => (window.location.href = '/Chatbot')}>
             Try Legaloop →
           </button>
-          <button className="bg-gray-800 text-white px-6 py-3 text-lg font-semibold rounded hover:bg-gray-700 transition">
+          {/* <button className="bg-gray-800 text-white px-6 py-3 text-lg font-semibold rounded hover:bg-gray-700 transition">
             Buy Premium ✔
-          </button>
+          </button> */}
         </div>
         
         <div className="text-left max-w-3xl mx-auto text-lg leading-relaxed px-5">

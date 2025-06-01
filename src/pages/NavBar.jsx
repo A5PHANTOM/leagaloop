@@ -22,6 +22,7 @@ function NavBar() {
         <a href="/Booking" className="hover:text-blue-300">Booking</a>
         <a href="/Chatbot" className="hover:text-blue-300">Company</a>
         <a href="/Lawyer" className="hover:text-blue-300">Lawyer</a>
+        <a href="/Contact" className="hover:text-blue-300">Contact Us</a> {/* ✅ Added */}
       </div>
 
       {/* Mobile Menu Toggle */}
@@ -50,6 +51,9 @@ function NavBar() {
         <a href="/Lawyer" className="hover:text-blue-300" onClick={toggleMenu}>
           Lawyer
         </a>
+        <a href="/Contact" className="hover:text-blue-300" onClick={toggleMenu}>
+          Contact Us
+        </a> {/* ✅ Added */}
       </div>
     </div>
   );

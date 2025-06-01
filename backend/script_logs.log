@@ -2076,3 +2076,158 @@ INFO:werkzeug: * Restarting with stat
 2025-04-05 15:18:50,141 - INFO - 127.0.0.1 - - [05/Apr/2025 15:18:50] "POST /generate HTTP/1.1" 200 -
 2025-04-05 15:19:02,410 - INFO - 127.0.0.1 - - [05/Apr/2025 15:19:02] "OPTIONS /generate HTTP/1.1" 200 -
 2025-04-05 15:19:05,871 - INFO - 127.0.0.1 - - [05/Apr/2025 15:19:05] "POST /generate HTTP/1.1" 200 -
+2025-04-10 15:28:22,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://192.168.1.4:5006
+2025-04-10 15:28:22,658 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 15:28:22,661 - INFO -  * Restarting with stat
+2025-04-10 15:28:22,917 - WARNING -  * Debugger is active!
+2025-04-10 15:28:22,924 - INFO -  * Debugger PIN: 405-902-381
+2025-04-10 15:28:53,072 - INFO - 127.0.0.1 - - [10/Apr/2025 15:28:53] "GET /lawyers HTTP/1.1" 200 -
+2025-04-10 15:28:53,081 - INFO - 127.0.0.1 - - [10/Apr/2025 15:28:53] "GET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1" 200 -
+2025-04-10 15:28:53,082 - INFO - 127.0.0.1 - - [10/Apr/2025 15:28:53] "GET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1" 200 -
+2025-04-10 15:28:59,108 - INFO - 127.0.0.1 - - [10/Apr/2025 15:28:59] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-10 15:29:16,313 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:16] "POST /generate HTTP/1.1" 200 -
+2025-04-10 15:29:38,093 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:38] "GET /lawyers HTTP/1.1" 200 -
+2025-04-10 15:29:38,096 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:38] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-10 15:29:38,096 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:38] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-10 15:29:50,029 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:50] "GET /lawyers HTTP/1.1" 200 -
+2025-04-10 15:29:50,034 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:50] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-10 15:29:50,035 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:50] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-10 15:29:59,783 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:59] "GET /lawyers HTTP/1.1" 200 -
+2025-04-10 15:29:59,786 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:59] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-10 15:29:59,787 - INFO - 127.0.0.1 - - [10/Apr/2025 15:29:59] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:31:12,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://172.20.10.3:5006
+2025-04-11 10:31:12,844 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 10:31:12,845 - INFO -  * Restarting with stat
+2025-04-11 10:31:13,105 - WARNING -  * Debugger is active!
+2025-04-11 10:31:13,111 - INFO -  * Debugger PIN: 405-902-381
+2025-04-11 10:32:29,958 - INFO - 127.0.0.1 - - [11/Apr/2025 10:32:29] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 10:32:36,339 - INFO - 127.0.0.1 - - [11/Apr/2025 10:32:36] "POST /generate HTTP/1.1" 200 -
+2025-04-11 10:43:49,717 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://127.0.0.1:5006
+2025-04-11 10:43:49,717 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 10:43:49,718 - INFO -  * Restarting with stat
+2025-04-11 10:43:50,001 - WARNING -  * Debugger is active!
+2025-04-11 10:43:50,008 - INFO -  * Debugger PIN: 740-505-914
+2025-04-11 10:47:36,076 - INFO - 127.0.0.1 - - [11/Apr/2025 10:47:36] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 10:47:44,022 - INFO - 127.0.0.1 - - [11/Apr/2025 10:47:44] "POST /generate HTTP/1.1" 200 -
+2025-04-11 10:49:24,609 - INFO - 127.0.0.1 - - [11/Apr/2025 10:49:24] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:49:24,614 - INFO - 127.0.0.1 - - [11/Apr/2025 10:49:24] "GET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1" 200 -
+2025-04-11 10:49:24,614 - INFO - 127.0.0.1 - - [11/Apr/2025 10:49:24] "GET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1" 200 -
+2025-04-11 10:50:07,635 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:07] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:50:07,640 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:07] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:07,640 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:07] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:27,927 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:27] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:50:27,931 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:27] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:27,932 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:27] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:30,898 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:30] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:50:30,900 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:30] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:30,901 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:30] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:37,520 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:37] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:50:37,525 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:37] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:37,525 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:37] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:44,981 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:44] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:50:44,985 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:44] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:44,985 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:44] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:52,301 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:52] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:50:52,304 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:52] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:50:52,304 - INFO - 127.0.0.1 - - [11/Apr/2025 10:50:52] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:51:50,988 - INFO - 127.0.0.1 - - [11/Apr/2025 10:51:50] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:51:50,991 - INFO - 127.0.0.1 - - [11/Apr/2025 10:51:50] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:51:50,991 - INFO - 127.0.0.1 - - [11/Apr/2025 10:51:50] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:56:46,675 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:46] "[35m[1mPOST /add_lawyer HTTP/1.1[0m" 201 -
+2025-04-11 10:56:46,678 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:46] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:56:46,680 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:46] "GET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1" 200 -
+2025-04-11 10:56:52,839 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:52] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:56:52,845 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:52] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:56:52,846 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:52] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 10:56:52,846 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:52] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 10:56:55,329 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:55] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 10:56:55,336 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:55] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 10:56:55,336 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:55] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 10:56:55,336 - INFO - 127.0.0.1 - - [11/Apr/2025 10:56:55] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 11:09:27,377 - INFO - 127.0.0.1 - - [11/Apr/2025 11:09:27] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 11:09:27,387 - INFO - 127.0.0.1 - - [11/Apr/2025 11:09:27] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 11:09:27,388 - INFO - 127.0.0.1 - - [11/Apr/2025 11:09:27] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 11:09:27,389 - INFO - 127.0.0.1 - - [11/Apr/2025 11:09:27] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 11:11:41,599 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:41] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 11:11:41,608 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:41] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 11:11:41,609 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:41] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 11:11:41,609 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:41] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 11:11:49,614 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:49] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 11:11:49,621 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:49] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 11:11:49,621 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:49] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 11:11:49,622 - INFO - 127.0.0.1 - - [11/Apr/2025 11:11:49] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 11:17:11,794 - INFO - 127.0.0.1 - - [11/Apr/2025 11:17:11] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 11:18:34,150 - INFO - 127.0.0.1 - - [11/Apr/2025 11:18:34] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 11:19:40,519 - INFO - 127.0.0.1 - - [11/Apr/2025 11:19:40] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 11:20:17,098 - INFO - 127.0.0.1 - - [11/Apr/2025 11:20:17] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 11:26:36,808 - INFO - 127.0.0.1 - - [11/Apr/2025 11:26:36] "POST /generate HTTP/1.1" 200 -
+2025-04-11 11:26:38,335 - INFO - 127.0.0.1 - - [11/Apr/2025 11:26:38] "POST /generate HTTP/1.1" 200 -
+2025-04-11 11:26:39,882 - INFO - 127.0.0.1 - - [11/Apr/2025 11:26:39] "POST /generate HTTP/1.1" 200 -
+2025-04-11 11:26:41,266 - INFO - 127.0.0.1 - - [11/Apr/2025 11:26:41] "POST /generate HTTP/1.1" 200 -
+2025-04-11 11:31:47,534 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://192.168.78.137:5006
+2025-04-11 11:31:47,535 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 11:31:47,535 - INFO -  * Restarting with stat
+2025-04-11 11:31:47,784 - WARNING -  * Debugger is active!
+2025-04-11 11:31:47,790 - INFO -  * Debugger PIN: 740-505-914
+2025-04-11 11:32:45,574 - INFO - 127.0.0.1 - - [11/Apr/2025 11:32:45] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 11:32:45,587 - INFO - 127.0.0.1 - - [11/Apr/2025 11:32:45] "GET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1" 200 -
+2025-04-11 11:32:45,587 - INFO - 127.0.0.1 - - [11/Apr/2025 11:32:45] "GET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1" 200 -
+2025-04-11 11:32:45,587 - INFO - 127.0.0.1 - - [11/Apr/2025 11:32:45] "GET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1" 200 -
+2025-04-11 11:32:57,685 - INFO - 127.0.0.1 - - [11/Apr/2025 11:32:57] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 11:33:04,699 - INFO - 127.0.0.1 - - [11/Apr/2025 11:33:04] "POST /generate HTTP/1.1" 200 -
+2025-04-11 11:35:39,372 - INFO - 127.0.0.1 - - [11/Apr/2025 11:35:39] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 11:35:39,381 - INFO - 127.0.0.1 - - [11/Apr/2025 11:35:39] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 11:35:39,382 - INFO - 127.0.0.1 - - [11/Apr/2025 11:35:39] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 11:35:39,382 - INFO - 127.0.0.1 - - [11/Apr/2025 11:35:39] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 11:37:04,470 - INFO - 127.0.0.1 - - [11/Apr/2025 11:37:04] "GET /lawyers HTTP/1.1" 200 -
+2025-04-11 11:37:04,482 - INFO - 127.0.0.1 - - [11/Apr/2025 11:37:04] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-04-11 11:37:04,483 - INFO - 127.0.0.1 - - [11/Apr/2025 11:37:04] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-11 11:37:04,484 - INFO - 127.0.0.1 - - [11/Apr/2025 11:37:04] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-11 11:37:11,954 - INFO - 127.0.0.1 - - [11/Apr/2025 11:37:11] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-11 11:37:22,807 - INFO - 127.0.0.1 - - [11/Apr/2025 11:37:22] "POST /generate HTTP/1.1" 200 -
+2025-04-15 13:09:21,731 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://172.20.10.3:5006
+2025-04-15 13:09:21,731 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-15 13:09:21,733 - INFO -  * Restarting with stat
+2025-04-15 13:09:22,115 - WARNING -  * Debugger is active!
+2025-04-15 13:09:22,128 - INFO -  * Debugger PIN: 405-902-381
+2025-04-15 13:12:20,930 - INFO - 127.0.0.1 - - [15/Apr/2025 13:12:20] "OPTIONS /generate HTTP/1.1" 200 -
+2025-04-15 13:12:29,570 - INFO - 127.0.0.1 - - [15/Apr/2025 13:12:29] "POST /generate HTTP/1.1" 200 -
+2025-04-16 09:59:07,212 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://192.168.1.4:5006
+2025-04-16 09:59:07,212 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 09:59:07,213 - INFO -  * Restarting with stat
+2025-04-16 09:59:07,485 - WARNING -  * Debugger is active!
+2025-04-16 09:59:07,491 - INFO -  * Debugger PIN: 405-902-381
+2025-04-16 10:13:00,107 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:00] "GET /lawyers HTTP/1.1" 200 -
+2025-04-16 10:13:00,121 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:00] "GET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1" 200 -
+2025-04-16 10:13:00,121 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:00] "GET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1" 200 -
+2025-04-16 10:13:00,121 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:00] "GET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1" 200 -
+2025-04-16 10:13:14,006 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:14] "GET /lawyers HTTP/1.1" 200 -
+2025-04-16 10:13:14,014 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:14] "[36mGET /uploads/WhatsApp_Image_2025-03-24_at_21.33.35.jpeg HTTP/1.1[0m" 304 -
+2025-04-16 10:13:14,015 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:14] "[36mGET /uploads/PHOTO-2025-02-15-22-32-39.jpg HTTP/1.1[0m" 304 -
+2025-04-16 10:13:14,015 - INFO - 127.0.0.1 - - [16/Apr/2025 10:13:14] "[36mGET /uploads/Screenshot_2025-04-11_at_8.02.04_AM.png HTTP/1.1[0m" 304 -
+2025-05-30 09:43:41,098 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5006
+ * Running on http://192.168.1.4:5006
+2025-05-30 09:43:41,098 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-30 09:43:41,099 - INFO -  * Restarting with stat
+2025-05-30 09:43:41,367 - WARNING -  * Debugger is active!
+2025-05-30 09:43:41,374 - INFO -  * Debugger PIN: 740-505-914
